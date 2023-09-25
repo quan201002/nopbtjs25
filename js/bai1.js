@@ -10,9 +10,6 @@ if( mon1 == 0 || mon2 == 0 || mon3 == 0){
     result.innerText = `Ban rot do co mot mon bi diem liet`;
 }else{
     var tongdiem = mon1 + mon2 + mon3 + diemdoituong(doituong)*1 + diemkhuvuc(khuvuc)*1;
-    console.log(diemdoituong(doituong)*1);
-    console.log(diemkhuvuc(khuvuc)*1);
-    
     if(tongdiem >= diemchuan){
         result.innerText = `Ban da dau voi tong diem : ${tongdiem}`
     }else {
